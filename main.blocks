@@ -1,1 +1,31 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="r`C*8kJnV/t~yJ:UxQhY" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="2,gqPyus,!uS;5Xt_KP`"><value name="text"><shadow type="text" id="Qh%#(XfQ_h+W#VIcYfGK"><field name="TEXT">athi</field></shadow></value></block></statement></block><block type="device_forever" id=".,y[qu+|}A4Sx4EW|e9K" x="205" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><comment id="true" minimized="true" x="-168" y="175" h="200" w="200">Makes the k8 turn left</comment><comment id="2DG)n_~7({d0d,JE3/PB" minimized="true" x="601" y="242" h="200" w="200">Makes k8 turn right</comment><comment id="OfIxi:TfOVsn`c}]4.L/" minimized="true" x="-674" y="371" h="200" w="200">Makes the k8 move forward</comment><comment id="rl!cg3CF.T,r;jrFlJ}(" minimized="true" x="321" y="640" h="200" w="200">Makes the k8 stop moving</comment><block type="pxt-on-start" id="r`C*8kJnV/t~yJ:UxQhY" x="-46" y="-9"><statement name="HANDLER"><block type="radio_set_group" id="6mT4M=SllZET0|tID(kX"><value name="ID"><shadow type="math_number_minmax" id="{k6!P8tzkl8wsAR9niAq"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">42</field></shadow></value></block></statement></block><block type="device_forever" id=".,y[qu+|}A4Sx4EW|e9K" x="205" y="0"></block><block type="device_gesture_event" id="ZVb@1?=:Xw~@kkmXObmU" x="68" y="155"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="radio_datagram_send" id="$[.L`/aN#6EhcRYnmuhS"><value name="value"><shadow type="math_number" id="UR,Lkpb)XnnxWa{|b$0J"><field name="NUM">3</field></shadow></value><next><block type="device_show_leds" id="/z@]M{%8@,zhuP?73?uj"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="4_rGmT6{GDVz:i9b+78$" x="341" y="246"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="radio_datagram_send" id="!LfkZ8}ew:dU:d:,{~m="><value name="value"><shadow type="math_number" id="W$j.Vr]p~%/+u{@:e$yd"><field name="NUM">4</field></shadow></value><next><block type="device_show_leds" id="`!qcuJ@^gR/Fmdw(pI)U"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id=",F[1d9a3$#}.$1BqE/-3" x="-418" y="365"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="radio_datagram_send" id="Z07sfljN,d4{!m$Ig4cC"><value name="value"><shadow type="math_number" id="%_Wznj]c+@H1ah5)o*X%"><field name="NUM">2</field></shadow></value><next><block type="device_show_leds" id="XGnR5jgl=?m[gf{bZhaI"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="(AUwK(A0Q*-fE=-V]S$4" x="16" y="640"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="radio_datagram_send" id="Y$z17g8R2sh{kSc^D67l"><value name="value"><shadow type="math_number" id="=ObiEVv_wI7q?ag;Yhhy"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="K,]yW#)2ZWN2TcerybXw"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id=";O3_pSl!^yrc5+=(dkPX" x="307" y="771"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="radio_datagram_send" id="j=)uLWe;ef.(Ug1-hRAi"><value name="value"><shadow type="math_number" id="y*{541HqzZpqMXD03v=("><field name="NUM">5</field></shadow></value><next><block type="device_show_leds" id="fTSJ_qz${y)0=!e8}1K}"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="BjLb}-cziWK-Ql8c]Zcl" x="823" y="751"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="{Z+m)jOXz||jc/r=D]ne"><value name="value"><shadow type="math_number" id="c)*2qTX)j_VY+mifDbl,"><field name="NUM">6</field></shadow></value><next><block type="basic_show_icon" id="_,vo:`NhdIlL?YH:eP{."><field name="i">IconNames.Umbrella</field></block></next></block></statement></block></xml>
